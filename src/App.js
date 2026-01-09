@@ -5,7 +5,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/employee-management-dashboard">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={
