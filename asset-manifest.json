@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/employee-management-dashboard/static/css/main.9da3b4af.css",
-    "main.js": "/employee-management-dashboard/static/js/main.dd404ed6.js",
+    "main.js": "/employee-management-dashboard/static/js/main.7f841d88.js",
     "index.html": "/employee-management-dashboard/index.html",
     "main.9da3b4af.css.map": "/employee-management-dashboard/static/css/main.9da3b4af.css.map",
-    "main.dd404ed6.js.map": "/employee-management-dashboard/static/js/main.dd404ed6.js.map"
+    "main.7f841d88.js.map": "/employee-management-dashboard/static/js/main.7f841d88.js.map"
   },
   "entrypoints": [
     "static/css/main.9da3b4af.css",
-    "static/js/main.dd404ed6.js"
+    "static/js/main.7f841d88.js"
   ]
 }
