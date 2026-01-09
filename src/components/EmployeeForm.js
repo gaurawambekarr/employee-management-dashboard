@@ -66,8 +66,6 @@ export default function EmployeeForm({ onSave, editData }) {
   <option>Uttar Pradesh</option>
   <option>Uttarakhand</option>
   <option>West Bengal</option>
-
-  {/* Union Territories */}
   <option>Andaman and Nicobar Islands</option>
   <option>Chandigarh</option>
   <option>Dadra and Nagar Haveli and Daman and Diu</option>

@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Assignment Overview
 
-## Available Scripts
+This project is a simple Employee Management Dashboard built using React.js.
+The goal of this assignment was to create a frontend application where users can log in and manage employee details such as adding, editing, deleting, searching, and filtering employees.
 
-In the project directory, you can run:
+To keep the project simple and focused on frontend concepts, mock authentication and browser localStorage are used instead of a backend API.
 
-### `npm start`
+##Tech Stack Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React.js (JavaScript)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Router DOM
 
-### `npm test`
+HTML5
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CSS3
 
-### `npm run build`
+Browser localStorage (for storing employee data)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Main Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Login page with mock authentication
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Protected dashboard route (cannot access without login)
 
-### `npm run eject`
+Add, edit, and delete employee records
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Upload profile image with preview before saving
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Search employees by name
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Filter employees by gender and active/inactive status
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Dashboard summary showing total, active, and inactive employees
 
-## Learn More
+Print employee list
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Responsive and clean user interface
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Assumptions and Design Decisions
 
-### Code Splitting
+This project uses localStorage as a mock data source instead of a backend server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Authentication is mock-based and implemented only to protect routes.
 
-### Analyzing the Bundle Size
+The focus was on functionality, clarity, and clean code rather than advanced backend logic.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+All features were implemented based on the assignment requirements.
 
-### Making a Progressive Web App
+##Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+No external UI libraries were used.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is suitable for demo and assignment review purposes.
