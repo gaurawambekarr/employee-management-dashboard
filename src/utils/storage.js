@@ -5,5 +5,10 @@ export const isAuth = () => localStorage.getItem("auth") === "true";
 export const getEmployees = () =>
   JSON.parse(localStorage.getItem("employees")) || [];
 
-export const saveEmployees = (data) =>
-  localStorage.setItem("employees", JSON.stringify(data));
+export const saveEmployees = (data) => {
+  try {
+    localStorage.setItem("employees", JSON.stringify(data));
+  } catch (e) {
+    alert("Storage limit reached. Please remove some employees or images.");
+  }
+};
