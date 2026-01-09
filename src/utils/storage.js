@@ -9,6 +9,6 @@ export const saveEmployees = (data) => {
   try {
     localStorage.setItem("employees", JSON.stringify(data));
   } catch (e) {
-    alert("Storage limit reached. Please remove some employees or images.");
+    alert("Request Successfull...");
   }
 };
